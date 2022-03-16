@@ -1,10 +1,18 @@
 import React from 'react';
-import './App.css';
+import Navbarmain from './Navbarmain';
+import Body from './Body';
+import Footer from './Footer';
 
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <div className='background'>
+        <div className='overlay'>
+          <Navbarmain />
+          <Body />
+          <Footer />
+        </div>
+      </div>
     </>
   );
 }
